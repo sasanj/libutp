@@ -114,7 +114,7 @@ typedef const char * cstr;
 typedef char * str;
 
 #ifndef __cplusplus
-typedef uint8 bool;
+#include <stdbool.h>
 #endif
 
 #endif //__UTP_TYPES_H__
